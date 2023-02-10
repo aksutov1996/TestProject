@@ -1,0 +1,135 @@
+/*Main css*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+table{
+    text-align: left;
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+table th {
+    padding-bottom: 10px;
+}
+table td{
+    padding-top: 10px;
+    padding-left: 5px;
+    border-bottom: 2px solid #dee2e6;
+    border-left: 2px solid #dee2e6;
+    border-right: 2px solid #dee2e6;
+}
+table .LeftTd{
+    border-left: 0px;
+}
+table .RightTd{
+    border-right: 0px;
+}
+
+/*HEADER CSS*/
+header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background: white;
+    box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+}
+.MaxWidthHeader{
+    display: flex;
+    flex-direction: column;
+    max-width: 962px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.LineLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.LineLogo img {
+    height: 100px;
+}
+.InfoHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.InfoHeaderCart{
+    display: flex;
+    flex-direction: column;
+}
+.Menu{
+    display: flex;
+    flex-direction: row;
+}
+.Menu li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+    padding: 10px;
+}
+.Menu a{
+    color: black;
+}
+
+/*CONTENT CSS*/
+content{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    width: 100%;
+    background: white;
+}
+.InputForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.InputForm form{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 16px rgb(38 38 38 / 16%);
+    padding: 20px;
+}
+.InputForm p{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.InputForm input{
+    margin-left: 10px;
+}
+.InputForm input.send{
+    margin-top: 15px;
+    margin-left: 0px;
+    padding: 5px;
+    width: 100px;
+}
+
+/*FOOTER CSS*/
+footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    width: 100%;
+    background: white;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

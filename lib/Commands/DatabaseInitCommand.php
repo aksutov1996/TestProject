@@ -27,8 +27,14 @@ class DatabaseInitCommand extends \Symfony\Component\Console\Command\Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $createTableSql = <<<SQL
-
-SQL;
+                            CREATE TABLE IF NOT EXISTS Result 
+                            (
+                                id_user INTEGER PRIMARY KEY,
+                                name_user VARCHAR(255),
+                                mail_user VARCHAR(255),
+                                link_user VARCHAR(255)
+                            );
+                            SQL;
 
         try {
             $database = new Database();

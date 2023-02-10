@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "f7a519afe4e2763051b10856c20b5f0404914ec4"
+                "reference": "f1a0f61212ceb4a441ffe082a34127606947537d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f7a519afe4e2763051b10856c20b5f0404914ec4",
-                "reference": "f7a519afe4e2763051b10856c20b5f0404914ec4",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f1a0f61212ceb4a441ffe082a34127606947537d",
+                "reference": "f1a0f61212ceb4a441ffe082a34127606947537d",
                 "shasum": ""
             },
             "require": {
@@ -154,7 +154,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-13T09:23:11+00:00"
+            "time": "2023-02-02T07:48:03+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -650,12 +650,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/string.git",
-                "reference": "295ef1f76d8afa41f63470f8c67e2ad4104c1abe"
+                "reference": "04d148afb950bc167d1666aa020f6cb8591576a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/string/zipball/295ef1f76d8afa41f63470f8c67e2ad4104c1abe",
-                "reference": "295ef1f76d8afa41f63470f8c67e2ad4104c1abe",
+                "url": "https://api.github.com/repos/symfony/string/zipball/04d148afb950bc167d1666aa020f6cb8591576a0",
+                "reference": "04d148afb950bc167d1666aa020f6cb8591576a0",
                 "shasum": ""
             },
             "require": {
@@ -728,7 +728,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-13T09:23:11+00:00"
+            "time": "2023-02-02T07:48:03+00:00"
         }
     ],
     "packages-dev": [],
